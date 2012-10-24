@@ -1,0 +1,48 @@
+/* 
+    Document   : base
+    Created on : 22 Sep 2012
+    Author     : JX
+    Modified on: 
+    Modified by: 
+    Description:
+        Base CSS selectors, e.g. root, html, body, a, etc...
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+    font-family: Arial, sans-serif;
+    color: #252525;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+    border: 0;
+}
+
+    a:visited {
+        color: steelblue;
+    }
+    
+    a:hover {
+        color: #003399;
+    }
+
+img {
+    text-decoration: none;
+    border: 0;
+}
