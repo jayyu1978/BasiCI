@@ -1,0 +1,5 @@
+Action application/x-hg-php53 /cgi-sys/php53
+AddHandler application/x-hg-php53 .php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
